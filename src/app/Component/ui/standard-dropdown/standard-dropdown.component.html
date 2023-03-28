@@ -1,0 +1,8 @@
+<select>
+    <option class="dd-button">Select</option>
+      <option *ngFor="let item of this.dataList;let i = index" value="{{item.code}}" [selected]="i == 0">
+        {{item.name}}
+      </option>
+    </select>
+
+    

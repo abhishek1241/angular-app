@@ -1,0 +1,26 @@
+textarea {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    background-color: #fff;
+    border: 1px solid #00f;
+    resize: none;
+    overflow: auto;
+  }
+  @media (max-width: 420px) {
+    textarea {
+      width: 100%;
+    }
+  }
+  button {
+    background-color: #77f;
+    color: #fff;
+    border: 3px solid #77f;
+    border-radius: 6px;
+    outline: 0;
+  }
+  button:hover,
+  button:active {
+    background-color: #55f;
+    border-color: #55f;
+  }
